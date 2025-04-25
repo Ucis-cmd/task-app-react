@@ -1,0 +1,21 @@
+.modal::backdrop {
+  opacity: 0.5;
+  background-color: black;
+}
+.modal {
+  width: 80%;
+  height: 80%;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--background-color);
+}
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.close-btn{
+    width: 5rem;
+    align-self: flex-end;
+    margin-top: 0 !important;
+}
